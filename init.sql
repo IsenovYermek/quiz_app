@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS questions (
+  id SERIAL NOT NULL PRIMARY KEY,
+  text TEXT NOT NULL,
+  answer TEXT NOT NULL,
+  created_at TIMESTAMP NOT NULL DEFAULT current_timestamp
+);
